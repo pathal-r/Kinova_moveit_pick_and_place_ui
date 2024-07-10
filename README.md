@@ -35,7 +35,14 @@ Before starting, ensure you have the following installed on your system:
    cp -r kinova_moveit_pick_and_place_ui/UI ~/kinova_ws
    ```
 
-3. **Build the Workspace**
+3. **Copy the aruco block model for gazebo**
+   Copy the aruco_block_long to .gazebo folder
+
+   ```bash
+   cp -r kinova_moveit_pick_and_place_ui/aruco_long_block ~/.gazebo/models
+   ```
+
+4. **Build the Workspace**
 
    Navigate to the workspace root and build the workspace using catkin_make:
 
