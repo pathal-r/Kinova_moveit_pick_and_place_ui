@@ -26,7 +26,7 @@ Before starting, ensure you have the following installed on your system:
 
   Clone this repository and copy the src, scripts, and UI folders to the workspace:
 
-  '''bash
+  ```bash
   git clone <your-repo-url> kinova_moveit_pick_and_place_ui
   cp -r kinova_moveit_pick_and_place_ui/src .
   cp -r kinova_moveit_pick_and_place_ui/scripts .
@@ -36,7 +36,7 @@ Before starting, ensure you have the following installed on your system:
 
   Navigate to the workspace root and build the workspace using catkin_make:
 
-  '''bash
+  ```bash
   cd ~/kinova_ws
   catkin_make
 
@@ -44,7 +44,7 @@ Before starting, ensure you have the following installed on your system:
 
   Navigate to the scripts directory and execute the controller script:
 
-  '''bash
+  ```bash
   cd ~/kinova_ws/scripts
   ./run_controller.sh
 
