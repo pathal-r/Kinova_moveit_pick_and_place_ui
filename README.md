@@ -52,4 +52,7 @@ Before starting, ensure you have the following installed on your system:
   
    To see the demo of the Kinova MoveIt! Pick and Place UI in action, check out the video below (To watch full video go to resources folder):
 
+   ![Demo_video-ezgif com-video-to-gif-converter](https://github.com/pathal-r/Kinova_moveit_pick_and_place_ui/assets/123066048/178b007d-da5b-430c-ba2b-b0100828564e)
+
+
    
