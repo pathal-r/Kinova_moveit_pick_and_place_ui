@@ -21,6 +21,7 @@ Before starting, ensure you have the following installed on your system:
    ```bash
    mkdir -p ~/kinova_ws/src
    cd ~/kinova_ws/src
+   ```
    
 
 2. **Copy Repository Contents**
@@ -28,10 +29,11 @@ Before starting, ensure you have the following installed on your system:
   Clone this repository and copy the src, scripts, and UI folders to the workspace:
 
   ```bash
-  git clone https://github.com/pathal-r/Kinova_moveit_pick_and_place_ui/kinova_moveit_pick_and_place_ui
+  git clone https://github.com/pathal-r/Kinova_moveit_pick_and_place_ui kinova_moveit_pick_and_place_ui
   cp -r kinova_moveit_pick_and_place_ui/src ~/kinova_ws
   cp -r kinova_moveit_pick_and_place_ui/scripts ~/kinova_ws
   cp -r kinova_moveit_pick_and_place_ui/UI ~/kinova_ws
+  ```
 
 3. **Build the Workspace**
 
@@ -40,6 +42,7 @@ Before starting, ensure you have the following installed on your system:
   ```bash
   cd ~/kinova_ws
   catkin_make
+  ```
 
 4. **Run the Controller Script**
 
@@ -48,6 +51,7 @@ Before starting, ensure you have the following installed on your system:
   ```bash
   cd ~/kinova_ws/scripts
   ./run_controller.sh
+  ```
 
 ## UI
    The UI for this project provides several buttons and checkboxes to control the Kinova arm and gripper. Below is a description of each element:
