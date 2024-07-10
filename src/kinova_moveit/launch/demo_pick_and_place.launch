@@ -1,0 +1,11 @@
+<launch>
+  <!-- Arguments -->
+  <arg name="script_path" default="/home/abhinav/kinova/UI/run_controller.sh" />
+
+  <!-- Launch demo_gazebo.launch -->
+  <include file="$(find kinova_moveit)/launch/demo_gazebo.launch" />
+
+  <!-- Launch aruno_reco.py -->
+  <node name="aruno_reco_node" pkg="aruco_recognition" type="aruco_pose_estimation.py" output="screen" />
+  
+</launch>
